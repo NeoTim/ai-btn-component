@@ -2,7 +2,7 @@ System.register([], function (_export) {
   _export('install', install);
 
   function install(aurelia) {
-    aurelia.globalizeResources('./hello-world');
+    aurelia.globalizeResources('./btn');
   }
 
   return {

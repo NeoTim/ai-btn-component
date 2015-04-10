@@ -7,6 +7,6 @@ define(['exports'], function (exports) {
   exports.install = install;
 
   function install(aurelia) {
-    aurelia.globalizeResources('./hello-world');
+    aurelia.globalizeResources('./btn');
   }
 });

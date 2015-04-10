@@ -1,5 +1,5 @@
 {
-  "name": "aurelia-skeleton-plugin",
+  "name": "ai-btn-component",
   "version": "0.1.0",
   "description": "A starter kit for building an Aurelia plugin.",
   "keywords": [
@@ -45,6 +45,12 @@
     "format": "register",
     "directories": {
       "lib": "dist/system"
+    },
+    "dependencies": {
+      "aurelia-templating": "^0.10.1"
     }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

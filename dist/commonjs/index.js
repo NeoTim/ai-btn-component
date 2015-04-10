@@ -6,5 +6,5 @@ Object.defineProperty(exports, '__esModule', {
 exports.install = install;
 
 function install(aurelia) {
-  aurelia.globalizeResources('./hello-world');
+  aurelia.globalizeResources('./btn');
 }
